@@ -1,0 +1,128 @@
+@charset "UTF-8";
+header {
+    width: 768px;
+    height: 250px;
+    background-color: green;
+    background-image: url(travelblogheader.png);
+}
+body {
+    background-image: url(travelbackground2.png);
+    background-size: cover;
+    background-repeat: repeat;
+}
+main {
+    width: 618px;
+    height: 1120px;
+    float: left;
+}
+img {
+    float: right;
+}
+footer {
+    width: 768px;
+    height: 50px;
+    background-color: #4141C2;
+    clear: both;
+}
+#container {
+    width: 768px;
+    height: auto;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 1.00)
+}
+aside {
+    width: 150px;
+    height: 1125px;
+    float: left;
+    background-color: #4141C2;
+    margin-bottom: -85px;
+    color: #FFFFFF;
+    text-align: left;
+    font-size: 19px;
+    margin-left: 0px;
+}
+nav {
+    width: 768px;
+    height: 50px;
+    margin-top: -5px;
+    text-align: center;
+    font-family: "parisplus-std", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16pt
+}
+#container nav li {
+    display: block;
+    list-style-type: none;
+    float: left;
+    width: 80px;
+    margin-right: 80px;
+}
+a {
+    margin-left: 86px;
+    text-align: center;
+    height: 25px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+}
+nav a:link {
+    color: #4141C2;
+	padding: 10px;
+}
+nav a:visited {
+    color: #6533E6;
+}
+nav a:hover {
+    color: #FFFFFF;
+	background-color: #4141C2;
+	padding: 10px;
+	border-radius: 20px;
+}
+nav a:active {
+    color: #000000;
+}
+h1 {
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-family: "apolline", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #4141C2;
+    font-size: 32px;
+    margin-top: 4px;
+}
+p {
+    font-family: "parisplus-std", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 60px;
+    font-size: 12pt;
+    margin-top: -18px;
+    text-indent: 40px;
+}
+div {
+    height: 2000px;
+}
+
+.user_comment {
+    padding-left: 0px;
+    margin-left: 37px;
+    margin-top: 7px;
+}
+.submit_btn {
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #4141C2;
+    color: #FFFFFF;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.img2about {
+}
